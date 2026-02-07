@@ -1,0 +1,10 @@
+curl --location 'http://localhost:5000/author/Dante Alighieri' \
+--header 'Cookie: connect.sid=s%3AgbVaV7_UDYGbCqULK8TLhDI23gBBUa_r.I%2BVAPMx2Z6NSmuZslisT79mCLsUl3MkiMWR85hml5kQ'
+Output:
+[
+    {
+        "author": "Dante Alighieri",
+        "title": "The Divine Comedy",
+        "reviews": {}
+    }
+]

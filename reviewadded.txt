@@ -1,0 +1,10 @@
+curl --location --request PUT 'http://localhost:5000/customer/auth/review/1?review=Very%20good%20book' \
+--header 'Cookie: cookies.txt; connect.sid=s%3AgbVaV7_UDYGbCqULK8TLhDI23gBBUa_r.I%2BVAPMx2Z6NSmuZslisT79mCLsUl3MkiMWR85hml5kQ'
+
+Output:
+{
+    "message": "Review added/updated successfully",
+    "reviews": {
+        "asha": "Very good book"
+    }
+}

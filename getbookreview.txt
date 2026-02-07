@@ -1,0 +1,6 @@
+curl --location 'http://localhost:5000/review/2' \
+--header 'Cookie: connect.sid=s%3AKoJp19mPpGljCZGV6Q-8-QSZtp9_VY8w.rUx0dPQOCX4idSpFmSH1EaERa800f9K9iFYwwjI0xpU'
+Output:
+{
+
+}

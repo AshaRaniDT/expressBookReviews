@@ -1,0 +1,9 @@
+curl --location 'http://localhost:5000/isbn/1' \
+--header 'Cookie: connect.sid=s%3AKoJp19mPpGljCZGV6Q-8-QSZtp9_VY8w.rUx0dPQOCX4idSpFmSH1EaERa800f9K9iFYwwjI0xpU'
+
+OUTPUT:
+{
+    "author": "Chinua Achebe",
+    "title": "Things Fall Apart",
+    "reviews": {}
+}

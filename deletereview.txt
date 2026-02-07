@@ -1,0 +1,8 @@
+curl --location --request DELETE 'http://localhost:5000/customer/auth/review/1' \
+--header 'Cookie: cookies.txt; connect.sid=s%3AM6bTBhU94ZYF1J_jTI5CP64H-6aQwFoP.DYlyrvn3AnFEv0tBvTytxuhiNEv3OAKgjQFFz%2FXELgA'
+
+Output:
+{
+    "message": "Review for ISBN 1 deleted successfully",
+    "reviews": {}
+}
